@@ -1,45 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>BOOKING</title>
-        <link rel="icon" type="image/x-icon" href="assets/Asset-1.ico"/>
-        <link rel="stylesheet" href="styles.css"/>
-    </head>
-    <body class="booking">
-        <h1>BOOKING INFORMATION</h1>
-        <p>Please fill out this form with the required information to allow our admin to contact you easily if required.</p>
-        <h2>Contact Details</h2>
-        <form>
-            <fieldset>
-                <label for="name">Name*: <input id="name" type="text" required/></label>
-                <label for="number">Mobile Number*: <input id="number" type="number" required/></label>
-                <label for="email">Email Address*: <input id="email" type="email" required/></label>
-            </fieldset>
-        <h2>Pick Up Information</h2>
-        <p>In this section, please provide as much details as possible, so that the admin can response or book your schedule much faster.</p>
-            <fieldset>
-                <label for="pick-up-time">Pick Up Time: <input id="pick-up-time" type="time" required/></label>
-                <label for="pick-up-date">Pick Up Date: <input id="pick-up-date" type="date" required/></label>
-                <label for="address">Address: <input id="address" type="text" required/></label>
-            </fieldset>
-        <p>How Do We Collect Your Laundry?</p>
-            <fieldset>
-                <label for="handover"><input id="handover" type="radio" class="inline"/>Handover In Person 
-                </label>
-                <label for="door"><input id="door" type="radio" class="inline"/>Left in front of Door
-                </label>
-            </fieldset>
-        <h2>Laundry Services</h2>
-            <p>Kindly indicate what laundry service do you require</p>
-                <h3>Laundry By Weight</h3>
-                    <fieldset>
-                        <label for="wash-dry">Wash-Dry (Kg): <input id="wash-dry" type="checkbox" required/></label><br>
-                        <label for="wash-dry-fold">Wash-Dry-Fold (Kg): <input id="wash-dry-fold" type="checkbox" required/></label>
-                    </fieldset>
-                <h3></h3>
-                    
-        </form>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>BOOKING</title>
+    <link rel="icon" type="image/x-icon" href="assets/Asset-1.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/final logo-01.png" alt="..." id="logo"/>  
+        <nav>
+          <div class="topnav" id="myTopnav">
+              <a class="active" href="index.html">HOME</a></li>
+                  <a href="about.html">ABOUT</a>
+                  <a href="services.html">SERVICES</a>
+                  <a href="booking.html">BOOKING</a>
+                  <a href="contact.html">CONTACT US</a>
+          </div>
+        </nav>
+      </header>
+    <h1 class="booking" style="text-align:center">BOOKING INFORMATION</h1>
+    <p style="text-align:center">
+      Please fill out this form with the required information to allow our admin
+      to contact you easily if required.
+    </p>
+    <h2 style="text-align:center">Contact Details</h2>
+    <form>
+      <fieldset>
+        <label for="name"
+          >Name*: <input id="name" type="text" required
+        /></label>
+        <label for="number"
+          >Mobile Number*: <input id="number" type="number" required
+        /></label>
+        <label for="email"
+          >Email Address*: <input id="email" type="email" required
+        /></label>
+      </fieldset>
+      <h2 style="text-align:center">Pick Up Information</h2>
+      <p>
+        In this section, please provide as much details as possible, so that the
+        admin can response or book your schedule much faster.
+      </p>
+      <fieldset>
+        <label for="pick-up-time"
+          >Pick Up Time: <input id="pick-up-time" type="time" required
+        /></label>
+        <label for="pick-up-date"
+          >Pick Up Date: <input id="pick-up-date" type="date" required
+        /></label>
+        <label for="address"
+          >Address: <input id="address" type="text" required
+        /></label>
+      </fieldset>
+      <p>How Do We Collect Your Laundry?</p>
+      <fieldset>
+        <label for="handover"
+          ><input id="handover" type="radio" class="inline" />Handover In Person
+        </label>
+        <label for="door"
+          ><input id="door" type="radio" class="inline" />Left in front of Door
+        </label>
+      </fieldset>
+      <h2 style="text-align:center">Laundry Services</h2>
+      <p>Kindly indicate what laundry service do you require</p>
+      <h3 style="text-align:center">Laundry By Weight</h3>
+      <fieldset>
+        <label for="wash-dry"
+          >Wash-Dry (Kg):
+          <input id="wash-dry" type="checkbox" required /></label
+        ><br />
+        <label for="wash-dry-fold"
+          >Wash-Dry-Fold (Kg):
+          <input id="wash-dry-fold" type="checkbox" required
+        /></label>
+      </fieldset>
+      <h3></h3>
+    </form>
+    <footer>
+      <div class="footer">
+        <p class="m-0 small">Copyright &copy; 2020</p>
+      </div>
+    </footer>
+  </body>
 </html>
