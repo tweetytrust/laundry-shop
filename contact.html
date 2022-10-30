@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>CONTENT</title>
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>CONTACT US</title>
     <link rel="icon" type="image/x-icon" href="assets/Asset-1.ico" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -23,21 +22,52 @@
         </div>
       </nav>
     </header>
-      <div class="information">
-        <h1 style="text-align:center">CONTACT US</h1>
-          <form>
-            <fieldset>
-              <label for="name">Name <input id="name" type="text" required/></label>
-              <label for="phone">Phone <input id="phone" type="number" required/></label>
-              <label for="email">E-mail <input id="email" type="email" required/></label>
-              <label for="message">Message <textarea id="message" rows="3" cols="30" Placeholder="type your message here"></textarea></label>
+    <div id="background-wrap">
+      <div class="bubble x1"></div>
+      <div class="bubble x2"></div>
+      <div class="bubble x3"></div>
+      <div class="bubble x4"></div>
+      <div class="bubble x5"></div>
+      <div class="bubble x6"></div>
+      <div class="bubble x7"></div>
+      <div class="bubble x8"></div>
+      <div class="bubble x9"></div>
+      <div class="bubble x10"></div>
+    </div>
+      <h1 id="h1c">CONTACT US</h1>
+      <div class="container">
+        <div class="branch" class="text-col">
+          <h2 id="h2c"> <span><img src="assets/locationicon.jpg" class="icon">OUR BRANCHES</span></h2>
+            <h3 id="h3">Main Branch</h3>
+              <p>#3E MDM Apartment, Purok 4 Rizal Ave., Brgy. Maimpis, City of San Fernando, Pampanga 2000</p>
+            <h3 id="h3c">Second Branch</h3>
+              <p>Unit 101-B CJG Building, Brgy. Baliti, City of San Fernando, Pampanga 2000</p>
+          <h2 id="h2c"><span><img src="assets/phoneicon.png" class="icon"></span>CALL US</h2>
+            <p>0949-628-5487</p>
+          <h2 id="h2c"><span><img src="assets/emailicon.png" class="icon">EMAIL US</span></h2>
+            <p>spindayslaundryshop@gmail.com</p>
+          </div>
+          <div class="img-col">
+            <img src="assets/location-01.png" alt="location map">
+          </div>
+      </div>
+      <section>
+        <div>
+          <form class="contactform">
+            <fieldset id="cform">
+              <label for="name">Name <input id="name" type="text" placeholder="Type Your Name Here..." class="input" required/></label>
+              <label for="phone">Phone <input id="phone" type="tel" placeholder="Type Your Contact Number Here..." class="input" required/></label>
+              <label for="email">E-mail <input id="email" type="email" placeholder="Type Your Email Address Here..." class="input" required/></label>
+              <label for="message">Message <textarea id="message" Placeholder="Type Your Message Here..." style="height:200px" class="input"> </textarea></label>
             </fieldset>
-              <input type="submit" value="Send Message"/>
+              <input type="submit" value="Send Message" id="submit"/>
           </form>
         </div>
+      </section>
+        
     <footer>
       <div class="footer">
-        <p class="m-0 small">Copyright &copy; 2020</p>
+        <p class="m-0 small">All Rights Reserved &copy; 2020</p>
       </div>
     </footer>
   </body>
