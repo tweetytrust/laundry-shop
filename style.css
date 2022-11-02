@@ -64,7 +64,7 @@ nav ul li a {
 
 #feature {
     width: 100%;
-    padding: 50px 0;
+    padding: 200px 0;
 }
 .title-text {
     text-align: center;
@@ -93,6 +93,39 @@ nav ul li a {
     border-bottom-right-radius: 35px;
 }
 .title-text h1 {
+    font-size: 413%;
+}
+#feature2 {
+    width: 100%;
+    padding: 50px 0;
+}
+.title-text2 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text2 p {
+    margin: auto;
+    font-size: 200%;
+    color: #0aa3c9;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text2 p::after {
+    content: "";
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#0aa3c9, #ffff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.title-text2 h1 {
     font-size: 413%;
 }
 .feature-box {
