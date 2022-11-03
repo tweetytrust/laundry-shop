@@ -74,6 +74,7 @@ nav ul li a {
 #feature {
     width: 100%;
     padding: 80px 0;
+    background: #efefef;
 }
 .title-text {
     text-align: center;
@@ -134,12 +135,9 @@ nav ul li a {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    font-size: 180%;
 }
-.feature-text {
-    padding: 0 30px;
-    text-align: initial;
-    font-size: 200%;
-}
+
 
 /*services */
 
@@ -185,6 +183,7 @@ nav ul li a {
 #contact {
     width: 100%;
     padding: 80px 0;
+    background: #efefef;
 }
 .icon {
     width: 30px;
@@ -192,7 +191,13 @@ nav ul li a {
     margin-right: 10px;
     margin-top: 30px;
 }
-
+#h2c {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #0aa3c9;
+    font-size: 313%;
+}
 .branch {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 60vw;
