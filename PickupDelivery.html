@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Pick Up and Delivery</title>
+    <link rel="icon" type="image/x-icon" href="assets/Asset-1.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bkg">
+    <h1 id="h1b">BOOKING INFORMATION</h1>
+    <p>
+      Please fill out this form with the required information to allow 
+      <br>our admin to contact you easily if required.
+    </p>
+    <section>
+      <h2 id="h2b">Contact Details</h2>
+      <form class="bookingdetails">
+        <fieldset>
+          <label for="name"
+            >Name: <input id="name" type="text" class="inputb" required
+          /></label>
+          <label for="number"
+            >Mobile Number: <input id="number" type="tel" class="inputb" required
+          /></label>
+          <label for="email"
+            >Email Address: <input id="email" type="email" class="inputb" required
+          /></label>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <h2 id="h2b">Pick Up Information</h2>
+      <p>In this section, please provide as much details as possible, 
+        <br>so that the admin can response or book your schedule much faster.</p>
+      <form class="bookingdetails">
+        <fieldset>
+          <label for="pick-up-time"
+            >Pick Up Time: <input id="pick-up-time" type="time" class="inputb" required
+          /></label>
+          <label for="pick-up-date"
+            >Pick Up Date: <input id="pick-up-date" type="date" class="inputb" required
+          /></label>
+          <label for="address"
+            >Address: <input id="address" type="text" class="inputb" required
+          /></label>
+        </fieldset>
+      <p>How Do We Collect Your Laundry?</p>
+        <fieldset>
+          <label for="handover"><input id="handover" name="collect" type="radio" class="inline" />Handover In Person</label>
+        <label for="door"><input id="door" name="collect" type="radio" class="inline" />Left in front of Door</label>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <form class="bookingdetails">
+        <h2 id="h2b">Laundry Services</h2>
+        <p>Kindly indicate what laundry service do you require</p>
+        <h3 id="h3b">Laundry By Weight</h3>
+      <fieldset>
+        <label for="wash-dry"><input id="wash-dry" name="weight" type="checkbox"/> Wash-Dry (Kg)</label>
+        <label for="wash-dry-fold"><input id="wash-dry-fold" name="weight" type="checkbox"/>Wash-Dry-Fold (Kg)</label>
+      </fieldset>
+      <h3 id="h3b">Other Laundry Services</h3>
+      <fieldset>
+        <label for="linens"><input id="linens" name="other" type="checkbox"/>Linens</label>
+        <label for="comforters"><input id="comforters" name="other" type="checkbox"/>Comforters</label>
+        <label for="towels"><input id="towels" name="other" type="checkbox"/>Towels</label>
+      </fieldset>
+      </form>
+    </section>  
+    <section>
+      <h2 id="h2b">Delivery Information</h2>
+      <p>In this section, if your delivery address is the same as above, PLEASE LEAVE IT BLANK. 
+      <br> However, kindly let us know your preferred time and date for delivery</p>
+      <form class="bookingdetails">
+        <fieldset>
+          <label for="delivery-time"
+            >Delivery Time: <input id="delivery-time" type="time" class="inputb" required
+          /></label>
+          <label for="delivery-date"
+            >Delivery Date: <input id="delivery-date" type="date" class="inputb" required
+          /></label>
+          <label for="address"
+            >Address: <input id="address" type="text" class="inputb" required
+          /></label>
+        </fieldset>
+      </form>
+      <input type="submit" value="Submit" id="submitb"/>
+    </section>          
+  </body>
+</html>
