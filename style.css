@@ -96,15 +96,7 @@ nav ul li a {
     width: 20px;
     margin-top: 15px;
 }
-@media screen and (max-width: 770px) {
-    .banner-text h1 {
-        font-size: 275%;
-    }
-    .banner-btn a {
-        display: block;
-        margin: 20px auto;
-    }
-}
+
 
 /*--feature--*/
 
@@ -186,20 +178,6 @@ nav ul li a {
     margin: initial;
     font-size: 120%;
 }
-@media screen and (max-width: 770px) {
-    .title-text h1 {
-        font-size: 219%;
-    }
-    .features {
-        flex-basis: 100%;
-    }
-    .features-img {
-        flex-basis: 100%;
-    }
-    .features-img img {
-        width: 100%;
-    }
-}
 
 /*--service--*/
 
@@ -268,21 +246,6 @@ hr {
     bottom: 40%;
     opacity: 1;
 }
-@media screen and (max-width: 770px) {
-    .single-service {
-        flex-basis: 100%;
-        margin-bottom: 30px;
-    }
-    .service-desc p {
-        font-size: 75%;
-    }
-    hr {
-        margin: 5px auto;
-    }
-    .single-service:hover .service-desc {
-        bottom: 25% !important;
-    }
-}
 
 /*testimonial*/
 
@@ -332,11 +295,7 @@ hr {
 .testimonial-col:hover {
     transform: translateY(-7px);
 }
-@media screen and (max-width: 770px) {
-    .testimonial-col {
-        flex-basis: 100%;
-    }
-}
+
 
 /*footer*/
 
@@ -406,15 +365,7 @@ hr {
     margin-top: 15px;
     font-family: 'Courier New', Courier, monospace;
 }
-@media screen and (max-width: 770px) {
-    .footer-left, .footer-right {
-        flex-basis: 100%;
-        font-size: 88%;
-    }
-    .footer-img {
-        top: 25%;
-    }
-}
+
 
  /* KEYFRAMES */
 
